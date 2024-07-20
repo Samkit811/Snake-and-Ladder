@@ -8,7 +8,7 @@ public class Snake {
     public Snake(){
         this.snakePositions = new HashMap<>();
         this.snakePositions.put(25, 10);
-        this.snakePositions.put(40, 30);
+        this.snakePositions.put(90, 20);
     }
 
     public boolean playerGetSnack(int position){

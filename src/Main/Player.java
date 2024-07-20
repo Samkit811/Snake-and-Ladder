@@ -4,7 +4,6 @@ public class Player {
     private int id;
     private String name;
     private int position;
-    private int winnerPosition;
 
     public Player(int id,String name){
         this.id = id;
@@ -33,13 +32,5 @@ public class Player {
 
     public void setPosition(int position) {
         this.position = position;
-    }
-
-    public void setWinnerPosition(int winnerPosition) {
-        this.winnerPosition = winnerPosition;
-    }
-
-    public boolean isPlayerWinner(int currentPosition){
-        return currentPosition == this.winnerPosition;
     }
 }

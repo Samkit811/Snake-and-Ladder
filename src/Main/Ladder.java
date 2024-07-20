@@ -7,7 +7,7 @@ public class Ladder {
 
     public Ladder(){
         this.ladderPositions = new HashMap<>();
-        this.ladderPositions.put(5, 20);
+        this.ladderPositions.put(5, 19);
         this.ladderPositions.put(15, 35);
     }
 
